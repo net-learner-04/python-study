@@ -29,7 +29,7 @@ while not end_of_auction:
     if input("Are there any other bidders? Type 'yes' or 'no'.\n").lower() == "no":
         over = True
     else:
-        print("\n" * 100)
+        print("\n" * 20)
 
 for bidder in bidder_info:
     if bidder_info[bidder] > max_value:
