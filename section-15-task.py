@@ -126,6 +126,6 @@ while POWER:
             menu(select)
     else:
         TRY += 1
-        print(f"Please select a valid menu option. Tries remaining: {TRY}")
+        print(f"Please select a valid menu option. Tries remaining: {4 - TRY}")
         if TRY > 3:
             POWER = False
